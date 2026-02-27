@@ -1,12 +1,12 @@
 #!/bin/bash
 # 邮件发送脚本 - 用于Gateway看门狗告警
 
-SMTP_SERVER="smtp.163.com"
+SMTP_SERVER="your-smtp-server"
 SMTP_PORT="465"
-SMTP_USER="15605564779@163.com"
-SMTP_PASS="FYT9r37uCXfW5qns"
-FROM_EMAIL="15605564779@163.com"
-TO_EMAIL="15605564779@163.com"
+SMTP_USER="your-smtp-user"
+SMTP_PASS="your-smtp-pass"
+FROM_EMAIL="your-smtp-post"
+TO_EMAIL="to-email"
 
 # 使用 mailx 发送邮件（支持SMTP认证）
 send_email() {
